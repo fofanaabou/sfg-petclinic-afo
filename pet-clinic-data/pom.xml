@@ -3,7 +3,7 @@
     <parent>
         <artifactId>sfg-petclinic-afo</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>�0.0.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

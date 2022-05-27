@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>sfg-petclinic-afo</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>�0.0.3</version>
     <name>sfg-petclinic-afo</name>
     <description>sfg-petclinic-afo</description>
     <properties>
@@ -46,5 +46,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:fofanaabou/sfg-petclinic-afo.git</developerConnection>
+    <tag>v0.0.3</tag>
   </scm>
 </project>
