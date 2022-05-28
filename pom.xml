@@ -38,6 +38,7 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -45,6 +46,5 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:fofanaabou/sfg-petclinic-afo.git</developerConnection>
-      <tag>sfg-petclinic-afo-0.0.2</tag>
   </scm>
 </project>
