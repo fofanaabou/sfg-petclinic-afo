@@ -1,4 +1,4 @@
-package com.example.sfgpetclinic.model.map;
+package com.example.sfgpetclinic.services.map;
 
 import com.example.sfgpetclinic.model.Owner;
 import com.example.sfgpetclinic.services.OwnerService;
