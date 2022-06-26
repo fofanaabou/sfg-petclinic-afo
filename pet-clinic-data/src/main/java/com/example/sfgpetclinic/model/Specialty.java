@@ -1,14 +1,21 @@
 package com.example.sfgpetclinic.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "specialties")
 public class Specialty extends BaseEntity{
 
-    private String getDescription;
+    @Column(name = "description")
+    private String description;
 
-    public String getGetDescription() {
-        return getDescription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setGetDescription(String getDescription) {
-        this.getDescription = getDescription;
+    public void setDescription(String getDescription) {
+        this.description = getDescription;
     }
 }
