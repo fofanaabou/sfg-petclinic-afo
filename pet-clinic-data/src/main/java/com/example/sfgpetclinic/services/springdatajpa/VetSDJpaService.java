@@ -1,6 +1,7 @@
-package com.example.sfgpetclinic.repositories;
+package com.example.sfgpetclinic.services.springdatajpa;
 
 import com.example.sfgpetclinic.model.Vet;
+import com.example.sfgpetclinic.repositories.VetRepository;
 import com.example.sfgpetclinic.services.VetService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
