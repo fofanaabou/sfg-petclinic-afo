@@ -5,11 +5,13 @@ import com.example.sfgpetclinic.model.Pet;
 import com.example.sfgpetclinic.services.OwnerService;
 import com.example.sfgpetclinic.services.PetService;
 import com.example.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
     private final PetTypeService petTypeService;
     private final PetService petService;
@@ -37,6 +39,14 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner save(Owner owner) {
 
+        System.out.println("#################");
+        System.out.println("#################");
+        System.out.println("#################");
+        System.out.println("#################");
+        System.out.println("#################");
+        System.out.println("#################");
+        System.out.println("#################");
+
         if(owner !=null){
             if (owner.getPets() != null){
                 owner.getPets().forEach(pet -> {
@@ -58,7 +68,6 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
         } else {
             return null;
         }
-
     }
 
     @Override
