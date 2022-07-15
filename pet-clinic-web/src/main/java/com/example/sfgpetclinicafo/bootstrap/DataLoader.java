@@ -18,8 +18,6 @@ public class DataLoader implements CommandLineRunner {
 
     private final VisitService visitService;
 
-
-
     public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtyService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
@@ -47,7 +45,6 @@ public class DataLoader implements CommandLineRunner {
         radiology.setDescription("Radiology");
         Specialty savedRadiology = specialtyService.save(radiology);
 
-
         Specialty surgery = new Specialty();
         surgery.setDescription("Surgery");
         Specialty savedSurgery = specialtyService.save(surgery);
@@ -56,12 +53,9 @@ public class DataLoader implements CommandLineRunner {
         dentistry.setDescription("Dentistry");
         Specialty savedDentistry = specialtyService.save(dentistry);
 
-
-
         PetType cat = new PetType();
         dog.setName("Cat");
         PetType petTypeSavedCat = petTypeService.save(cat);
-
 
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
@@ -79,7 +73,6 @@ public class DataLoader implements CommandLineRunner {
                 .build();
 
         System.out.println(ownerTest.toString());
-
 
         Pet mikesPet = new Pet();
         mikesPet.setOwner(owner1);
