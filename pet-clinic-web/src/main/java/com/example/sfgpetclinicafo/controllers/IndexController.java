@@ -13,8 +13,8 @@ public class IndexController {
         return "index";
     }
 
-    @GetMapping({"/find", "/oups"})
-    public String findAny(){
+    @GetMapping("/oups")
+    public String oupsHandler(){
         return "notImplemented";
     }
 }

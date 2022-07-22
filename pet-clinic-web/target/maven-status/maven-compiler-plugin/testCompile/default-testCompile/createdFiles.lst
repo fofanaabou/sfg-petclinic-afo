@@ -1,2 +1,4 @@
 com\example\sfgpetclinicafo\SfgPetclinicAfoApplicationTests.class
+com\example\sfgpetclinic\services\map\OwnerServiceMapTest.class
+com\example\sfgpetclinicafo\controllers\OwnerControllerTest.class
 com\example\sfgpetclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
